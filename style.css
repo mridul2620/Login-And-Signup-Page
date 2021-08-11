@@ -1,0 +1,96 @@
+body{
+    background-image: url("finalbackground.jpeg");
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:70%;
+    background-position: center;
+    position: relative;
+}
+.social{
+    background-color:#264653;
+    color:rgb(179, 218, 228);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 15px;
+    width:30%;
+    display: inline;
+    font-family: cursive;
+    font-weight:bold;
+    cursor: pointer;
+}
+.social:hover{
+    background-color:#14213d;
+}
+.cred{
+    background-color:#264653;
+    color:rgb(179, 218, 228);
+    text-align: center;
+    text-decoration: blue;
+    font-size: 14px;
+    border-radius: 15px;
+    width:30%;
+    display: inline;
+    font-family: cursive;
+    font-weight:bold;
+    cursor: pointer;
+}
+.cred:hover{
+    background-color:#14213d;
+}
+div.transbox{
+    background-color: rgba(191, 222, 224, 0.5);
+	margin: auto auto;
+	padding: 50px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #000;
+	position: relative;
+    top: 50px;
+    bottom: 100px;
+	width: 500px;
+	height: 460px;
+}
+.credentials,h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: fantasy;
+    border: 1px solid var(--input-border);
+    border-radius:2px;
+    }
+a{
+    color:#001219;
+    font-weight: 20px;
+}
+.new{
+    text-align: center;
+    text-transform:capitalize;
+    font-family: cursive;
+}
+p{
+    text-align: center;
+    font-size: large;
+    font-family: cursive;
+    text-decoration: darkblue;
+    text-transform: capitalize;
+}
+input[type=text], input[type=password],input[type=email] {
+    padding: 5px;
+    margin: 1px 0 1px 0;
+    display: inline-table;
+    border: none;
+    background: #f1f1f1;
+    width: 50%;
+  }
+label{
+    width: 50%;
+    display: inline-table;
+}
+
+.logo{
+    text-indent: -99999999px;
+    background: url("file:///C:/Users/HP/Downloads/Asset%201%20(2).png") no-repeat center;
+    height: 150px;
+    width: 100%;
+}
